@@ -1,4 +1,4 @@
 # fxs 's Artificial_Intelligence
-# minesweep £º
-## ĞèÒªtkinter
+# minesweep ï¼š
+## éœ€è¦tkinter
 ## tkinter is needed
