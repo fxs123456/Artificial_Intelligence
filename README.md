@@ -1,4 +1,7 @@
 # fxs 's Artificial_Intelligence
-# minesweep ：
+
+### minesweep ：
+
  需要tkinter
+
  tkinter is needed
