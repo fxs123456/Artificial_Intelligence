@@ -539,7 +539,7 @@ class Minsweeping:
                 self.drawBombs()
                 self.countAllDigits()
                 self.drawDigitsAroundBomb()
-            if not self.isOpen[random_x]:
+            if not self.isOpen[random_x] and not self.isFlag[random_x]:
                 self.click(random_x)
                 f1 = 0
 
