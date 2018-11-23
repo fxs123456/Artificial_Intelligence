@@ -1,7 +1,5 @@
 # fxs 's Artificial_Intelligence
 
-
-
 ### minesweep ：
 
  需要tkinter
@@ -12,14 +10,10 @@
 python3 minesweep.py
 ```
 
-## gobang ：
+### gobang ：
 
 将graphics.py放在同一目录
 
 ```bash
 python3 giao.py
 ```
-
-
-
-
