@@ -517,16 +517,16 @@ class Minsweeping:
             self.random()
 
     def click(self, i):
-        self.searchEmptyBox(i)
         self.updateClickTimes()
+        self.searchEmptyBox(i)
         self.isluck = 1
         self.isGameWinned()
 
     def flag(self, i):
         if not self.isFlag[i]:
+            self.updateUnfindBombsNum(1)
             img = self.Blocks[str(i)].WarningImg
             self.Blocks[str(i)].canvas.create_image(0, 0, anchor='nw', image=img)
-            self.updateUnfindBombsNum(1)
             self.isluck = 1
             self.isFlag[i] = True
 
