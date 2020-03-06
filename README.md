@@ -4,8 +4,6 @@
 
  需要tkinter
 
- tkinter is needed
-
 ```bash
 python3 minesweep.py
 ```
